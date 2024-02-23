@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+<!--这就是Spring配置文件-->
+<!--    IDEA工具为我们提供了这个文件的模板，一定要使用这个模板来创建-->
+<!--    这个文件名可以是其他-->
+<!--    文件最好是放在类路径中，方便后期移植-->
+<!--    bean标签的两个重要属性：id：是bean的身份证号，不能重复，唯一标识\
+        class：必须填写类的全路径-->
+    <bean id="userDaoBean" class="com.powernode.spring6.dao.CustomerDao"></bean>
+    <bean id="userServiceBean" class="com.powernode.spring6.service.CustomerService">
+        <constructor-arg name="dao" ref="userDaoBean"></constructor-arg>
+<!--        类似调用方法-->
+
+    </bean>
+</beans>

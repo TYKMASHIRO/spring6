@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+<!--        factory-method调用的是静态方法,调用这个函数可以获取bean-->
+    <bean id="orderBean" class="bean.OrderFactory" factory-method="get"></bean>
+    <bean id="gunFactory" class="bean.GunFactory"></bean>
+    <bean id="GunBean" factory-bean="gunFactory" factory-method="get"></bean>
+    <bean id="personBean" class="bean.PersonFactoryBean"></bean>
+</beans>
