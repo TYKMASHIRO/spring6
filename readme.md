@@ -20,6 +20,6 @@ c命名是为了简化构造注入
 5.spring默认情况下是单例的在spring初始化的时候实例化
 将bean的scope属性设置为prototype时候每一次调用getBean的时候才会初始化
 
-
+//
 ![img_1.png](img_1.png)
 ![img_2.png](img_2.png)
