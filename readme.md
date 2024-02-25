@@ -13,6 +13,13 @@ XML解析+工厂模式+反射机制就是IOC的底层原理
 ![img.png](img.png)
 依赖：A对象和B对象的关系  
 注入：是一种手段，通过手段使AB发生关系
-DI：依赖注入
+DI：依赖注入a
+p命名注入是为了简化set注入
+c命名是为了简化构造注入
 
+5.spring默认情况下是单例的在spring初始化的时候实例化
+将bean的scope属性设置为prototype时候每一次调用getBean的时候才会初始化
 
+//
+![img_1.png](img_1.png)
+![img_2.png](img_2.png)
