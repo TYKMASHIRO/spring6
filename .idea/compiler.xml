@@ -9,8 +9,13 @@
         <module name="spring6-001-revelation" />
         <module name="spring6-003-dependency-injection" />
         <module name="spring6-002-first" />
+        <module name="springAOP" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel target="17" />
+    <bytecodeTargetLevel target="17">
+      <module name="dynamic-proxy-jdk" target="17" />
+      <module name="spring-005-bean-instantiation" target="17" />
+      <module name="spring-ComponentScan" target="17" />
+    </bytecodeTargetLevel>
   </component>
 </project>

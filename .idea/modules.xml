@@ -2,6 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/dynamic-proxy-jdk.iml" filepath="$PROJECT_DIR$/dynamic-proxy-jdk.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sping-AOP.iml" filepath="$PROJECT_DIR$/sping-AOP.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-005-bean-instantiation.iml" filepath="$PROJECT_DIR$/spring-005-bean-instantiation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-AOP.iml" filepath="$PROJECT_DIR$/spring-AOP.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-ComponentScan.iml" filepath="$PROJECT_DIR$/spring-ComponentScan.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring6.iml" filepath="$PROJECT_DIR$/spring6.iml" />
     </modules>
   </component>
